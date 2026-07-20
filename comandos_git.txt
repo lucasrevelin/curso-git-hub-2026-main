@@ -1,0 +1,36 @@
+git init. -> cria um repo git na pastla
+git status -> mostra o status do trabalho
+git add nome_arquivo -> adiciona arquivo para ser commitado
+git commit -m "msg" -> faz commit do que estava para ser commitado
+git log -> mostra todo o histórico do commit
+git diff + nome arquivo -> ele mostra o que foi alterado desde o ultimo commit
+
+git reset + nome arquivo que voce nao quer add -> ele da um rollback do que você deu no git add.
+
+
+git checkout -b nome -> cria uma branch secundária (lembrar sempre de voltar para o main/master para criar novas branch, para sempre puxar dali)
+
+git branch -d + nome da branch -> apaga a branch secundária (não posso estar na branch que quero apagar 
+
+git branch -> mostra em qual branch você está 
+
+git checkout nome -> move você até lá. (master ou secundário) 
+
+para criar novas branches, ou seja, ramificações, sem ser no main, agora ir para as quests secundárias.
+
+
+git checkout main/master -> retorna para o main
+
+
+git merge + nome da branch -> isso faz com o que foi criado na branch venha para o main, para o save principal! 
+
+
+------
+- Quando fizer alguma alteração e quiser subir para o GitHub, faz o git add . depois
+faz o git commit -m "nome" e depois coloca 
+git push origin main (quando for para o main)
+
+agora, tudo que eu fizer no GitHub e quiser trazer ele pro local
+git pull origin main
+
+

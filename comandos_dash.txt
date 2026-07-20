@@ -1,0 +1,7 @@
+mkdir - cria nova pasta no diretório que estiver 
+ls -> lista arquicos
+cd -> move entre diretórios (Ex cd Desktop/) lembrar da barra no final
+pwd -> mostra onde está
+cat -> mostra o conteúdo do arquivo
+rm -> remove o arquivo ou diretório
+rm -rf -> remove de forma recursiva e forçada todos os diretórios
