@@ -33,4 +33,4 @@ git push origin main (quando for para o main)
 agora, tudo que eu fizer no GitHub e quiser trazer ele pro local
 git pull origin main
 
-
+Criei uma Branch no GitHub, para puxar para o VScode só digitar git fetch
