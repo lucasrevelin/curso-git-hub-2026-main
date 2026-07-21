@@ -34,3 +34,5 @@ agora, tudo que eu fizer no GitHub e quiser trazer ele pro local
 git pull origin main
 
 Criei uma Branch no GitHub, para puxar para o VScode só digitar git fetch
+** Sempre que começar uma nova branch fazer o git pull origin + nome_branch para ter 
+certeza que está tudo atualizado!
