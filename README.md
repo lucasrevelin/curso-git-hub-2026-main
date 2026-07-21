@@ -56,13 +56,45 @@ Apoie nosso projeto no [Apoia-se](apoia.se/teomewhy)
 
 ----
 
-Pessoas participantes:
+O nosso padrão
+Branches
+Nomes de branches são compostos de 3 partes:
 
-- Igor Dammous
-- Infoslack
-- Leo Medeiros
-- Lucas Revelin
-- Mateus Dantas
-- Tales
-- Téo Calvo
--
+1 — type ou categoria do branch. Os types podem ser os seguintes:
+
+- docs: apenas mudanças de documentação;
+
+- feat: uma nova funcionalidade;
+
+- fix: a correção de um bug;
+
+- perf: mudança de código focada em melhorar performance;
+
+- refactor: mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;
+
+- style: mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc);
+
+- test: adicionar ou corrigir testes.
+
+2 — o que o branch faz em si
+
+3 — Código da tarefa no Jira. Ex.: PL-123.
+
+Exemplos de alguns nomes de branches que podem existir em nossa aplicação:
+
+- feat-cadastro-veiculos-PL-123
+- refactor-edicao-colaboradores-PL-355
+- fix-busca-checklists-PL-232
+
+git commit -m "test: add test for create product automation"
+git commit -m "feat: implement tracking product service"
+git commit -m "refactor: change return log pattern"
+git commit -m "style: change function param for objects"
+git commit -m "fix: remove getPayment() wrong attribute"
+git commit -m "chore: add no-undef rule in eslintrc.json"
+git commit -m "docs: add technologies list in readme"
+git commit -m "style: remove all blank spaces"
+git commit -m "perf: change looping for parallel execution"
+git commit -m "build: remove moment.js dependency"
+git commit -m "build: add date-fns npm dependency"
+git commit -m "revert: back to a215868 commit"
